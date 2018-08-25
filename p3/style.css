@@ -1,0 +1,74 @@
+body {
+  height: 98vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(48, 30, 32)
+}
+
+main {
+  display: grid;
+  height: 90%;
+  grid-template-rows: 300px 200px 300px 200px;
+  grid-template-columns: 45% 55%;
+  grid-gap: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top:5px;
+  color: white;
+}
+
+h3 {
+  margin-left: 5%;
+  margin-top: 5%;
+  color: white;
+}
+p {
+  padding: 15px;
+}
+
+.box{
+  height: 100%;
+  background-color: #999;
+  display: grid;
+  align-content: center;
+  grid-row: span 1;
+  grid-column: span 1;
+  line-height: 26px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.one {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(233, 35, 55);
+}
+
+.two {
+  background-color: rgb(104, 178, 157);
+}
+
+.three {
+  height: 200px;
+  grid-column: span 2;
+}
+
+
+.five {
+  background-color: rgb(104, 178, 157);
+}
+
+.six {
+  grid-column: span 2;
+}
+.ten {
+  background-color: rgb(104, 178, 157);
+}
+
+
+@media only screen and (min-width: 600px) {
+}
